@@ -2,7 +2,7 @@
 
 Docker image for publishing tasks
 
-## Gitbook
+## gitbook
 
 This debian (node:10-slim) image is used to generate documents in HTML, PDF, MOBI and EPUB format with [GitBook Toolchain Documentation](https://toolchain.gitbook.com/).
 
