@@ -12,12 +12,12 @@ RUN npm install --global gitbook-cli \
         && apt-get update \
 	&& apt-get install --no-install-recommends --no-install-suggests -y \
              #wget \
-						 #curl \
-						 #vim \
+	     #curl \
+	     #vim \
              #openssh-client \
              calibre \
              ttf-freefont \
-						 ttf-liberation fonts-liberation \
+	     ttf-liberation fonts-liberation \
   && mkdir -p /root/.ssh \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /tmp/*
