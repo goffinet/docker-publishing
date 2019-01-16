@@ -18,5 +18,6 @@ RUN npm install --global gitbook-cli \
     ttf-freefont \
     ttf-liberation \
     fonts-liberation \
+    fonts-robot \
   && rm -rf /var/lib/apt/lists/* \
   && rm -rf /tmp/*
